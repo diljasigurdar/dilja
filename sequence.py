@@ -4,13 +4,22 @@ second = 2
 third = 3
 sum_n = 0
 counter = 1
+current = 0
 
-while counter <= n/3:
-    print(first)
-    print(second)
-    print(third)
-    first = first+second+third
-    second = first+second+third
-    third =  first+second+third
+if n >= 1:
+    print(1)
+if n >= 2:
+    print(2)
+if n >=3:
+    print(3)
+
+while counter <= (n - 3):
+    current = first + second + third
+    third, second, first = current, third, second
+    print(current)
     counter += 1
+   
+
+
+
     
