@@ -1,5 +1,5 @@
-num_int = 0
 max_int = 0
+num_int = 0
 
 while num_int >= 0:
     num_int = int(input("Input a number: "))
