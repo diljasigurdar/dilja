@@ -8,7 +8,7 @@ for x in range(10,100):
 countOfDivisors = 0
 
 for numberToCheck in range(1,100):
-    for potentialDivisor in range(1,(x+1)):
+    for potentialDivisor in range(1,(x+1)):                     #second loop runs through all potential divisors for numberToCheck
         if numberToCheck % potentialDivisor == 0:
             countOfDivisors += 1
     if countOfDivisors == 10:

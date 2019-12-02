@@ -15,7 +15,6 @@ binaryStr = binaryStr[::-1]
 
 if myInt == 0:
     binaryStr = 0
-    print("The binary of", myInt, "is", binaryStr)
     
 print("The binary of", myInt, "is", binaryStr)
 
